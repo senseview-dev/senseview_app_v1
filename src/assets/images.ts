@@ -1,34 +1,34 @@
-// Image assets from local files - using Vite import syntax
+// Image assets using Vite dynamic imports for proper asset handling
 export const images = {
   // Background images
-  heroBackground: "/src/assets/images/heroBackground.png",
-  plant1Image: "/src/assets/images/plant1Image.png",
-  plant2Image: "/src/assets/images/plant2Image.png",
-  plant3Image: "/src/assets/images/plant3Image.png",
+  heroBackground: new URL('./images/heroBackground.png', import.meta.url).href,
+  plant1Image: new URL('./images/plant1Image.png', import.meta.url).href,
+  plant2Image: new URL('./images/plant2Image.png', import.meta.url).href,
+  plant3Image: new URL('./images/plant3Image.png', import.meta.url).href,
 
   // Icons
-  dashboardIcon: "/src/assets/images/dashboardIcon.svg",
-  productionIcon: "/src/assets/images/productionIcon.svg",
-  maintenanceIcon: "/src/assets/images/maintenanceIcon.svg",
-  analyticsIcon: "/src/assets/images/analyticsIcon.svg",
+  dashboardIcon: new URL('./images/dashboardIcon.svg', import.meta.url).href,
+  productionIcon: new URL('./images/productionIcon.svg', import.meta.url).href,
+  maintenanceIcon: new URL('./images/maintenanceIcon.svg', import.meta.url).href,
+  analyticsIcon: new URL('./images/analyticsIcon.svg', import.meta.url).href,
 
   // Top navigation icons
-  searchIcon: "/src/assets/images/searchIcon.svg",
-  notificationIcon: "/src/assets/images/notificationIcon.svg",
-  helpIcon: "/src/assets/images/helpIcon.svg",
-  settingsIcon: "/src/assets/images/settingsIcon.svg",
-  messagesIcon: "/src/assets/images/settingsIcon.svg",
+  searchIcon: new URL('./images/searchIcon.svg', import.meta.url).href,
+  notificationIcon: new URL('./images/notificationIcon.svg', import.meta.url).href,
+  helpIcon: new URL('./images/helpIcon.svg', import.meta.url).href,
+  settingsIcon: new URL('./images/settingsIcon.svg', import.meta.url).href,
+  messagesIcon: new URL('./images/settingsIcon.svg', import.meta.url).href,
 
   // Plant card icons
-  buildingIcon: "/src/assets/images/buildingIcon.svg",
-  locationIcon: "/src/assets/images/locationIcon.svg",
-  factoryIcon: "/src/assets/images/factoryIcon.svg",
-  dotsIcon: "/src/assets/images/dotsIcon.svg",
-  arrowIcon: "/src/assets/images/warningIcon.svg",
-  calendarIcon: "/src/assets/images/calendarIcon.svg",
-  warningIcon: "/src/assets/images/warningIcon.svg",
+  buildingIcon: new URL('./images/buildingIcon.svg', import.meta.url).href,
+  locationIcon: new URL('./images/locationIcon.svg', import.meta.url).href,
+  factoryIcon: new URL('./images/factoryIcon.svg', import.meta.url).href,
+  dotsIcon: new URL('./images/dotsIcon.svg', import.meta.url).href,
+  arrowIcon: new URL('./images/warningIcon.svg', import.meta.url).href,
+  calendarIcon: new URL('./images/calendarIcon.svg', import.meta.url).href,
+  warningIcon: new URL('./images/warningIcon.svg', import.meta.url).href,
 
   // Logos
-  smartSiteLogo: "/src/assets/images/smartSiteLogo.svg",
-  companyLogo: "/src/assets/images/companyLogo.png"
+  smartSiteLogo: new URL('./images/smartSiteLogo.svg', import.meta.url).href,
+  companyLogo: new URL('./images/companyLogo.png', import.meta.url).href
 } 
