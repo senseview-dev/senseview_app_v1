@@ -14,7 +14,7 @@ const PlantCard: React.FC<PlantCardProps> = ({ title, location, buildings, image
       {/* Top container */}
       <div className="box-border content-stretch flex flex-row gap-3 items-center justify-center overflow-clip pb-1 pt-0 px-0 relative shrink-0">
         <div className="box-border content-stretch flex flex-row gap-3 items-center justify-center p-0 relative shrink-0">
-          {/* Icon frame */}
+          {/* Icon frame - Building icon for title */}
           <div className="bg-[#087aa2] box-border content-stretch flex flex-row items-center justify-center p-[8px] relative rounded-lg shrink-0">
             <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 size-4">
               <div className="h-4 relative shrink-0 w-full">
@@ -69,7 +69,7 @@ const PlantCard: React.FC<PlantCardProps> = ({ title, location, buildings, image
       
       {/* Data container */}
       <div className="box-border content-stretch flex flex-col gap-[3.99px] items-center justify-center p-0 relative shrink-0">
-        {/* Location */}
+        {/* Location with map icon */}
         <div className="box-border content-stretch flex flex-row gap-2 h-[22.41px] items-center justify-start overflow-clip pb-px pt-0 px-0 relative shrink-0 w-full">
           <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 size-4">
             <div className="h-4 relative shrink-0 w-full">
@@ -89,13 +89,13 @@ const PlantCard: React.FC<PlantCardProps> = ({ title, location, buildings, image
           </div>
         </div>
         
-        {/* Buildings */}
+        {/* Buildings with calendar icon */}
         <div className="box-border content-stretch flex flex-row gap-2 h-[22.41px] items-center justify-start overflow-clip pb-px pt-0 px-0 relative shrink-0 w-full">
           <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 size-4">
             <div className="h-4 relative shrink-0 w-full">
-              <div className="absolute bottom-[16.41%] contents left-[3.89%] right-[3.9%] top-[13.28%]">
-                <div className="absolute bottom-[16.41%] left-[3.89%] right-[3.9%] top-[13.28%]">
-                  <img alt="" className="block max-w-none size-full" src={images.factoryIcon} />
+              <div className="absolute bottom-[13.28%] contents left-[13.28%] right-[13.28%] top-[7.03%]">
+                <div className="absolute bottom-[13.28%] left-[13.28%] right-[13.28%] top-[7.03%]">
+                  <img alt="" className="block max-w-none size-full" src={images.calendarIcon} />
                 </div>
               </div>
             </div>

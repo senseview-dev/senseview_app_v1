@@ -58,11 +58,12 @@ const MainContent: React.FC = () => {
         {/* Date Display */}
         <div className="box-border content-stretch flex flex-row items-center justify-start overflow-clip px-10 py-0 relative shrink-0 w-full">
           <div className="box-border content-stretch flex flex-row gap-2 h-[22.41px] items-center justify-center overflow-clip pb-px pt-0 px-0 relative shrink-0">
+            {/* Location icon for date */}
             <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 size-4">
               <div className="h-4 relative shrink-0 w-full">
-                <div className="absolute bottom-[13.28%] contents left-[13.28%] right-[13.28%] top-[7.03%]">
-                  <div className="absolute bottom-[13.28%] left-[13.28%] right-[13.28%] top-[7.03%]">
-                    <img alt="" className="block max-w-none size-full" src={images.calendarIcon} />
+                <div className="absolute bottom-[7.02%] contents left-[16.41%] right-[16.41%] top-[7.03%]">
+                  <div className="absolute bottom-[7.02%] left-[16.41%] right-[16.41%] top-[7.03%]">
+                    <img alt="" className="block max-w-none size-full" src={images.locationIcon} />
                   </div>
                 </div>
               </div>
@@ -104,9 +105,9 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className="box-border content-stretch flex flex-col items-start justify-start min-w-[710.5px] p-0 relative shrink-0">
                   <div className="box-border content-stretch flex flex-col items-start justify-start pb-[0.59px] pt-0 px-0 relative shrink-0 w-full">
-                                          <div className="flex flex-col font-manrope-bold justify-center leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[16px] text-left text-nowrap">
-                        <p className="block leading-[25.6px] whitespace-pre">Planta 02 - Beta</p>
-                      </div>
+                    <div className="flex flex-col font-manrope-bold justify-center leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[16px] text-left text-nowrap">
+                      <p className="block leading-[25.6px] whitespace-pre">Planta 02 - Beta</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -125,9 +126,9 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
                   <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 w-full">
-                                          <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
-                        <p className="block leading-[22.4px]">Av. Vallarta 405, Ciudad Granja, Zapopan, Jalisco</p>
-                      </div>
+                    <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
+                      <p className="block leading-[22.4px]">Av. Vallarta 405, Ciudad Granja, Zapopan, Jalisco</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -143,9 +144,9 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
                   <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 w-full">
-                                          <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
-                        <p className="block leading-[22.4px]">2 Naves</p>
-                      </div>
+                    <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
+                      <p className="block leading-[22.4px]">2 Naves</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -177,9 +178,9 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className="box-border content-stretch flex flex-col items-start justify-start min-w-[710.5px] p-0 relative shrink-0">
                   <div className="box-border content-stretch flex flex-col items-start justify-start pb-[0.59px] pt-0 px-0 relative shrink-0 w-full">
-                                          <div className="flex flex-col font-manrope-bold justify-center leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[16px] text-left text-nowrap">
-                        <p className="block leading-[25.6px] whitespace-pre">Planta 03 - Gamma</p>
-                      </div>
+                    <div className="flex flex-col font-manrope-bold justify-center leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[16px] text-left text-nowrap">
+                      <p className="block leading-[25.6px] whitespace-pre">Planta 03 - Gamma</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -198,9 +199,9 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
                   <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 w-full">
-                                          <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
-                        <p className="block leading-[22.4px]">Av. Vallarta 406, Ciudad Granja, Zapopan, Jalisco</p>
-                      </div>
+                    <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
+                      <p className="block leading-[22.4px]">Av. Vallarta 406, Ciudad Granja, Zapopan, Jalisco</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -216,9 +217,9 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
                   <div className="box-border content-stretch flex flex-col items-start justify-start p-0 relative shrink-0 w-full">
-                                          <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
-                        <p className="block leading-[22.4px]">1 Nave</p>
-                      </div>
+                    <div className="flex flex-col font-manrope-regular justify-center leading-[0] not-italic relative shrink-0 text-[#adadad] text-[14px] text-left w-full">
+                      <p className="block leading-[22.4px]">1 Nave</p>
+                    </div>
                   </div>
                 </div>
               </div>
